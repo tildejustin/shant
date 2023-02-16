@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "shant",
+  "version": "${version}",
+  "name": "Sha'nt",
+  "description": "sha256 of mods for verification assistance",
+  "authors": [
+    "tildejustin"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/shant/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.tildejustin.shant.Shant"
+    ]
+  },
+  "mixins": [
+    "shant.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12"
+  }
+}
